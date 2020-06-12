@@ -1,0 +1,48 @@
+body{
+  background-image: radial-gradient(circle, #541d60, #6c3985, #8455ac, #9a73d4, #ae92ff);
+}
+
+.App{
+
+  background-color: rgb(161, 217, 255);
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+  border-radius: 15px;
+  
+
+}
+
+#to-do-form input {
+
+  background-color: white;
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+
+
+}
+
+#to-do-form input::placeholder {
+
+  color: rgb(129, 129, 129);
+
+}
+
+#to-do-form button{
+
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    border: 2px rgb(31, 112, 235) solid;
+}
